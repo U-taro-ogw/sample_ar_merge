@@ -1,7 +1,8 @@
 require "test_helper"
 
 class PostTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  test "scope chain" do
+    posts = Post.status_one_comment.example_comment
+    assert posts.count == 0
+  end
 end

@@ -4,8 +4,6 @@
 # model remove the "{}" from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: {}
+# one: { id: 1, post_id: 1, status: 1, body: "example" }
 # column: value
-#
-two: {}
-# column: value
+# two: { id: 2, post_id: 1, status: 2, body: "example" }
